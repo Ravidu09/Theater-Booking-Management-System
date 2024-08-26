@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express()
 
 //import routes 
-const BookingRoutes = require('./Routes/Booking');
+const BookingRoutes = require('./Routes/Ravidu/Booking');
 
 app.use(bodyParser.json());
 app.use(cors());

@@ -1,5 +1,5 @@
 const express = require('express');
-const Booking = require('../models/Booking'); // Import the Booking model
+const Booking = require('../models/Ravidu/Booking'); // Import the Booking model
 
 const router = express.Router();
 
